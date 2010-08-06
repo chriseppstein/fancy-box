@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "1.3.1.pre.1"
+  s.version = "1.3.1.pre.2"
   s.date = "2010-08-05"
 
   # Gem Details
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Simplified installation of Fancybox for Compass users}
   s.description = %q{Simplified installation of Fancybox for Compass users}
   s.email = "chris@eppsteins.net"
-  s.homepage = "http://github.com/chriseppstein/fancybox"
+  s.homepage = "http://github.com/chriseppstein/fancy-box"
 
   # Gem Files
   s.files = %w(README.markdown)
