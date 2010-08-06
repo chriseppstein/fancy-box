@@ -13,6 +13,7 @@
 //   http://www.opensource.org/licenses/mit-license.php
 //   http://www.gnu.org/licenses/gpl.html
 
+$fancy-box-preload: true !default;
 
 #fancybox-loading {
 	position: fixed;
@@ -34,7 +35,12 @@
 }
 
 .fancybox-sprite {
-	background-image: inline-image('fancybox/fancybox.png');  
+  @if $fancy-box-preload {
+  	background-image: inline-image('fancybox/fancybox.png');  
+  }
+  @else {
+  	background-image: image-url('fancybox/fancybox.png');  
+  }
 }
 
 #fancybox-loading div {
