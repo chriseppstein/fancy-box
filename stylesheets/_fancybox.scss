@@ -33,13 +33,17 @@
 	margin-top: 0;
 }
 
+.fancybox-sprite {
+	background-image: inline-image('fancybox/fancybox.png');  
+}
+
 #fancybox-loading div {
+  @extend .fancybox-sprite;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 40px;
 	height: 480px;
-	background-image: image-url('fancybox/fancybox.png');
 }
 
 #fancybox-overlay {
@@ -110,7 +114,7 @@
 	right: -15px;
 	width: 30px;
 	height: 30px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px 0px;
 	cursor: pointer;
 	z-index: 1103;
@@ -195,7 +199,7 @@
 
 #fancybox-title-left {
 	padding-left: 15px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -90px;
 	background-repeat: no-repeat;
 }
@@ -210,7 +214,7 @@
 
 #fancybox-title-right {
 	padding-left: 15px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -55px -90px;
 	background-repeat: no-repeat;
 }
@@ -248,12 +252,12 @@
 }
 
 #fancybox-left-ico {
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -60px;
 }
 
@@ -290,7 +294,7 @@
 #fancy-bg-ne {
 	top: -20px;
 	right: -20px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -162px;
 }
 
@@ -305,7 +309,7 @@
 #fancy-bg-se {
 	bottom: -20px;
 	right: -20px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -182px; 
 }
 
@@ -320,7 +324,7 @@
 #fancy-bg-sw {
 	bottom: -20px;
 	left: -20px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -142px;
 }
 
@@ -334,7 +338,7 @@
 #fancy-bg-nw {
 	top: -20px;
 	left: -20px;
-	background-image: image-url('fancybox/fancybox.png');
+  @extend .fancybox-sprite;
 	background-position: -40px -122px;
 }
 
