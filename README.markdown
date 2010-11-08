@@ -1,5 +1,5 @@
 Fancy Box Jquery Plugin for Compass Projects
-============================================ 
+============================================
 
 FancyBox is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page. Note that this is simply a mirror of the plugin, the origin and page of the author is located at : http://fancy.klade.lv/
 
