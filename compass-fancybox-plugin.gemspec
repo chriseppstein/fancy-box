@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = "1.3.1.0"
-  s.date = "2010-08-05"
+  s.version = "1.3.3.0"
+  s.date = "2010-11-08"
 
   # Gem Details
   s.name = "compass-fancybox-plugin"
